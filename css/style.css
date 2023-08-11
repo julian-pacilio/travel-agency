@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 1em;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: .5em 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: aliceblue;
+}
+
+/* - - - - Header - - - - */
+
+.hero  {
+    height: 60vh;
+    /* 
+    background: linear-gradient(to right, rgba(128, 0, 128, 0.2) 0 50%, rgba(128, 0, 128, 0) 50% 100%), url('./img/mountains.jpg');
+    */
+    background: linear-gradient(90deg, rgba(255, 69, 0,0.4) 0%, rgba(255,69,0,0.2) 50%, rgba(128,0,128,0) 100%), url('../img/mountains.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* This padding prevent margin collapse*/
+    padding: .1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* - - - - NAV - - - - - */
+
+nav {
+    margin-top: 2em;
+}
+
+.nav-menu {
+    text-align: center;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+}
+
+/* - - - - SECTION - - - - - */
+
+section {
+    margin: 50px auto;
+}
+
+/* - - - - CARDS - - - - - */
+
+.cards__trending, .photos__grid__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    
+}
+
+.picture__trending img {
+    border-radius: 8px;
+}
+
+.card__trending{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__trending > div {
+    width: 100%;
+}
+
+.card__trending__prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__trending__prices button {
+    display: block;
+    border: 0;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+/* - - - - Fotos - - - - - */
+
+.photos__li {
+    background-image: url('../img/berlin.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    color: white;
+}
+
+.photos__score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: orangered;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.photos__li h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.photos__li p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+/* - - - - Elegirnos - - - - - */
+
+#section__eligenos > picture img {
+    border-radius: 8px;
+}
+
+#section__eligenos, #section__newsletter > p {
+    text-align: center;
+
+}
+
+/* - - - - Newsletter - - - - - */
+
+
+/* - - - - Footer - - - - - */
+
+footer {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* - - - - Personal CSS - - - - - */
+
+
+.mb {
+    margin-bottom: .5em;
+}
+
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
