@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="Agencia de viajes">
+    <script src="https://kit.fontawesome.com/47b349eb03.js" crossorigin="anonymous"></script>
     <title>Travel Agency</title>
 </head>
 <body>
@@ -75,6 +76,36 @@
                         </div>
                     </div>
                 </li>
+                <li class="card__trending">
+                    <picture class="picture__trending">
+                        <img src="./img/berlin.avif" alt="ciudad-de-berlin">
+                    </picture>
+                    <div>
+                        <div class="mb">
+                            <h3>Berlin</h3>
+                            <p>10 lugares - 5 actividades</p>
+                        </div>
+                        <div class="card__trending__prices mb">
+                            <p>$510 USD</p>
+                            <button>Reservar</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="card__trending">
+                    <picture class="picture__trending">
+                        <img src="./img/berlin.avif" alt="ciudad-de-berlin">
+                    </picture>
+                    <div>
+                        <div class="mb">
+                            <h3>Berlin</h3>
+                            <p>10 lugares - 5 actividades</p>
+                        </div>
+                        <div class="card__trending__prices mb">
+                            <p>$510 USD</p>
+                            <button>Reservar</button>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </section>
         <section id="section__destinos">
@@ -113,16 +144,60 @@
             </ul>
         </section>
         <section id="section__eligenos">
-            <div>
-                <h2>¿Porque elegirnos?</h2>
-                <p>
-                    Somos la empresa numero 1 en viajes de Argentina y nuestra mision es lograr que nuestros clientes disfruten la experiencia
-                </p>
+            <h2>¿Porque elegirnos?</h2>
+            <p>
+                Somos la empresa numero 1 en viajes de Argentina y nuestra mision es lograr que nuestros clientes disfruten la experiencia
+            </p>
+            <div class="section__eligenos__info">
+                <ul class="info__pills__ul">
+                    <li class="info__pill">
+                        <div>
+                            <i class="fa-solid fa-earth-americas" style="color: #ff4500;"></i>
+                        </div>
+                        <div>
+                            <h3>Alcance</h3>
+                            <p>texto</p>
+                        </div>
+                    </li>
+                    <li class="info__pill">
+                        <div>
+                            <i class="fa-solid fa-headset" style="color: #ff4500;"></i>
+                        </div>
+                        <div>
+                            <h3>Asistencia</h3>
+                            <p>texto</p>
+                        </div>
+                    </li>
+                    <li class="info__pill">
+                        <div>
+                            <i class="fa-solid fa-circle-check" style="color: #ff4500;"></i>
+                        </div>
+                        <div>
+                            <h3>Confianza</h3>
+                            <p>texto</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <section id="section__newsletter">
             <h2>Suscribete a nuestro Newsletter</h2>
             <p>Recibe las ultimas actualizaciones de viajes, ofertas y promociones</p>
+            <ul class="newsletter__ul">
+                <li><b>Mejores</b> Destinos</li>
+                <li><b>Ultimas</b> Promociones</li>
+                <li><b>Nuevas</b> Reseñas</li>
+            </ul>
+            <div id="form">
+                <form action="#">
+                    <div class="mb form__input">
+                        <input type="email" name="email" id="email" placeholder="Escribe tu email">
+                    </div>
+                    <div class="form__button">
+                        <button type="submit">Suscribirme</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
